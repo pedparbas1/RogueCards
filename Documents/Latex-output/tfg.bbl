@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Benavides et~al.(2005)Benavides, Ruiz-Cort\'es, and
+  Trinidad]{benavides05-CAISE}
+D.~Benavides, A.~Ruiz-Cort\'es, and P.~Trinidad.
+\newblock Automated reasoning on feature models.
+\newblock \emph{LNCS, Advanced Information Systems Engineering: 17th
+  International Conference, CAiSE 2005}, 3520:\penalty0 491--503, 2005.
+\newblock ISSN 0302-9743.
+
+\end{thebibliography}
