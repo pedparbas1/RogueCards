@@ -1,0 +1,101 @@
+% A sample model to write a TFG project
+
+% IMPORTANT!!! Substitute "draft" with "final" to render the final version of the TFG 
+\documentclass[titlepage,openright,twoside,a4paper,draft,12pt,spanish]{book}
+
+% Configuring the environment to support spanish characters.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+
+\usepackage[pdftex,final]{graphicx}
+
+% Style package
+\usepackage{trinidad-TfG}
+% Font Package (Palatino)
+\usepackage{mathpazo}
+% Packages for specific capabilities
+\usepackage{rotating} % for text rotation in tables
+\usepackage{multirow} % for multirow in tables
+\usepackage{subfigure} % Place subfigures in figure environment
+% Packages for specific symbols
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{eurosym} % Euro symbol
+\usepackage{bbding} % for \XSolidBrush
+\usepackage{pifont} % for \ding{55} (a check mark)
+
+\author{Nombre del Alumno}{Grado en Ingeniería Informática - Especialidad}{D.~}{12345678A}
+\authorURL{http://www.lsi.us.es/~trinidad}
+\authorEMail{ptrinidad@us.es}
+\setTitle{Título del Trabajo Fin de grado}
+%\setSubtitle{No subtitle}
+\setUniversity{Universidad de Sevilla}
+\copyrightText{Pon aquí cuestiones acerca del copyright}
+\supervisor{Pablo Trinidad Martín-Arroyo}{Dr.~}{Lenguajes y Sistemas Informáticos}
+
+
+
+\makeglossaries
+\begin{document}
+\makeTitlePage
+
+\pagestyle{empty}
+\begin{dedication}
+Tu dedicatoria aquí
+\end{dedication}
+\pagenumbering{roman}
+\pagestyle{trinidadPhD}
+
+\input{agradecimientos}
+\input{resumen}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\listoftodos
+\newpage
+
+\pagenumbering{arabic}
+\input{acronyms}
+
+\lineNumbersOn
+\part{Introducción}
+\input{Contexto}
+\input{Objetivos}
+
+\part{Organización del proyecto}
+\input{Metodologia}
+\input{Planificacion}
+\input{costes}
+
+\part{Desarrollo del proyecto}
+
+\input{Arranque}
+\input{iteracion1}
+
+\part{Cierre del proyecto}
+
+\input{Manual}
+\input{Conclusiones}
+
+
+
+\part{Appendices}
+\appendix
+
+\input{ejemplo}
+
+\lineNumbersOff
+
+\glossarystyle{long}
+\printglossaries
+\newpage
+
+\bibliographystyle{abbrvnat}
+\addcontentsline{toc}{chapter}{Referencias bibliográficas}
+\bibliography{referencias}
+
+\end{document} 

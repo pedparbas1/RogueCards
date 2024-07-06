@@ -1,0 +1,104 @@
+%!TEX root =  tfg.tex
+\chapter{Costes}
+
+\begin{quotation}[Novelist]{Ernest Hemingway (1899--1961)}
+The good parts of a book may be only something a writer is lucky enough to overhear or it may be the wreck of his whole damn life -- and one is as good as the other.
+\end{quotation}
+
+\begin{abstract}
+Resumen de lo que va a ocurrir en el capítulo. ¿Cuál es el objetivo que tenemos con este capítulo?
+\end{abstract}
+
+\section{Características a desarrollar}
+
+\begin{enumerate}
+\item Funcionalidad A. Ver Tabla \ref{tab:valorAportado1}.
+\item Funcionalidad B.
+\end{enumerate}
+
+\begin{table*}[htb]
+	\centering
+	\begin{coolTable}{p{4cm}p{\textwidth-4.5cm}}{2}
+{Análisis de valor aportado 0001}
+\textbf{Propuesta}&Trabajo que pretende analizarse y justificarse\\
+\midrule
+\textbf{Valor}&Qué valor aporta al proyecto o al usuario final.\\
+\textbf{Coste}&Qué costes en términos de esfuerzo, adquisiciones y limitaciones tiene la propuesta\\
+\textbf{Opciones}&Qué otras opciones se tienen que aporten un valor similar? ¿Es realmente un valor relevante para el proyecto/cliente\\
+\textbf{Riesgos}&Qué riesgos pueden surgir a la hora de desarrollar esta propuesta.\\
+\textbf{Deuda técnica}&Posibles deudas técnicas que se asumen con el desarrollo de esta propuesta.\\
+	\end{coolTable}
+	\caption{Análisis de valor aportado 0001\label{tab:valorAportado1}}
+\end{table*}
+
+\section{Diseño}
+Aquí una discusión de cómo va a afectar todo al diseño
+
+Debe insertarse un diagrama UML de diseño con los cambios y hacer referencia en el texto así Fig. \ref{fig:diseno01}.
+
+\begin{figure}[htbp]
+\begin{center}
+\missingfigure{Aquí el modelo de diseño en formato vectorial preferentemente (pdf)}
+% Incluir la figura quitando el comentario a la fila de abajo.
+% \includegraphics[width=\textwidth]{myfile.pdf}
+\caption{Diagrama UML de diseño para la iteración 1}
+\label{fig:diseno01}
+\end{center}
+\end{figure}
+
+Un memorando técnico por cada decisión de diseño.
+
+\begin{table*}[htb]
+	\centering
+	\begin{coolTable}{p{4cm}p{\textwidth-4.5cm}}{2}
+{Memorando técnico 0001}
+\textbf{Asunto}&¿Cuál es el problema?\\
+\textbf{Resumen}&¿Cuál es la solución propuesta?\\
+\midrule
+\textbf{Factores causantes}&Descripción pormenorizada del problema\\
+\textbf{Solución}&Descripción pormenorizada de la solución propuesta\\
+\textbf{Motivación}&¿Por qué propone esta solución?\\
+\textbf{Cuestiones abiertas}& Factores a tener en cuenta en la solución cuya dimensión se reconoce.\\
+\textbf{Alternativas}&Otras soluciones consideradas y la razón por la que se excluyeron.\\
+	\end{coolTable}
+	\caption{Memorando técnico 0001}
+\end{table*}
+
+
+\section{Implementación}
+
+Un memorando técnico por cada decisión de implementación y refactorización que afecte al diseño.
+
+\begin{asigResponsabilidad}{0001}{Prueba}
+{[return\_type] method\_name1 (param1:type1, ...)}
+\pasoPseudo{1. Paso 1.}
+\pasoPseudo{2. Paso 2.}
+\cabeceraMetodosBajoNivel
+\pasoCodigo{1}{ClassName}{[return\_type] method\_name1 (param1:type1, ...)}{001}{SI}
+\diagramaColaboracion{figures/colDiagram.png}
+\end{asigResponsabilidad}
+
+\begin{asigResponsabilidad}{alvotermar02}{Grubber}
+{[return\_type] grubber (param1:type1, ...)}
+\pasoPseudo{1. Lanzar 2 dados}
+\pasoPseudo{2. Compara resultado de los dados con kicking del open-side}
+\pasoPseudo{2.1. Si valor dados es menor o igual a kicking, avanza 10m}
+\pasoPseudo{3.1. Si no hay defensa y el golpeo es exitoso, el pateador retiene la posesi\'on del bal\'on}
+\pasoPseudo{3.2. Si hay defensa y el golpe es exitoso, el atacante tira un dado y suma su valor al de speed y strength y el defensor lanza 2 dados y lo suma al valor de speed y strength de su jugador, el vencedor ser\'a aquel que tenga m\'as puntos, si es igual, la posesi\'on es del defensor}
+\pasoPseudo{4.1. Si no es exitoso y hay defensa el bal\'on pasa a posesi\'on del defensor}
+\pasoPseudo{4.2. Si no es exitoso y no hay defensa de lanza un line-out}
+\cabeceraMetodosBajoNivel
+\pasoCodigo{1}{Dice}{[Integer] throwDice ()}{001}{SI}
+\pasoCodigo{2}{ClassName}{[Int] compareKickingToDice (kicking:Integer, dice: Integer)}{001}{SI}
+\pasoCodigo{2.1}{ClassName}{[Integer] setLine (line:Integer)}{001}{SI}
+\pasoCodigo{4.2}{ClassName}{[Integer] lineOut ()}{001}{SI}
+%\diagramaColaboracion{colDiagram.png}
+\end{asigResponsabilidad}
+
+\section{Pruebas}
+
+Descripción de las pruebas realizadas al software
+
+\section{Despliegue}
+
+Breve resumen de cómo se han desplegado los cambios en el sistema de producción.
