@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RogueCards.sln"
+    "dotnet.defaultSolution": "RogueCards.sln",
+    "wordcount.mode" : "word",
 }
