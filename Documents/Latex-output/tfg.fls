@@ -459,6 +459,9 @@ OUTPUT d:\Unity\projects\RogueCards\Documents\Latex-output\tfg.out
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplbc8t.tfm
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplbc8t.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ppl.fd
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ppl.fd
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ppl.fd
@@ -513,8 +516,6 @@ INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zpl
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplbc8t.tfm
-INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
-INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT .\figures\universidad.pdf
 INPUT .\figures\universidad.pdf
 INPUT .\figures\universidad.pdf
@@ -530,8 +531,10 @@ INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplbc8t.vf
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
-INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplbc8t.vf
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\pparr\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ppl.fd
