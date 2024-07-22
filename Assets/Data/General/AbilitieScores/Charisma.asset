@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ce191ed2156b84fbe59f3d8ced342d, type: 3}
   m_Name: Charisma
   m_EditorClassIdentifier: 
-  abilitieName: Charisma
+  abilityName: Cha
   abilitieColor: {r: 0.5272841, g: 0.34440002, b: 0.6, a: 0}

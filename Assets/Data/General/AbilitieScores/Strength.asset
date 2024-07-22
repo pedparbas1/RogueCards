@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ce191ed2156b84fbe59f3d8ced342d, type: 3}
   m_Name: Strength
   m_EditorClassIdentifier: 
-  abilitieName: Strength
+  abilityName: Str
   abilitieColor: {r: 0.6, g: 0.39000002, b: 0.40372944, a: 0}
