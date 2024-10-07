@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7236f4a8466b904a82f67f845895c7b, type: 3}
+  m_Name: Beary EnemyData
+  m_EditorClassIdentifier: 
+  enemySprite: {fileID: 6620809189138861625, guid: 4d65d63220324bd4eb20b0042b786c36, type: 3}
+  animationController: {fileID: 9100000, guid: c8a560d300582eb46a582376d0b04989, type: 2}
+  enemyName: Beary
+  statBlockInstance: {fileID: 11400000, guid: 6cef6dcf078667642a745129798b5ed7, type: 2}

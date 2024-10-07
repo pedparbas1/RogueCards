@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca6a55e82be0c44799a981f93521722, type: 3}
+  m_Name: MageDeck
+  m_EditorClassIdentifier: 
+  modifiable: 0
+  initialDeck:
+    dict:
+    - Key: {fileID: 11400000, guid: 3c0e50ecdf70b134bb3eac50781fde6b, type: 2}
+      Value: 3
+    - Key: {fileID: 11400000, guid: fe2a61e2b3e515b48bd116b6f4eea606, type: 2}
+      Value: 3
+    - Key: {fileID: 11400000, guid: 13b3878567fe03c49acce9f1d79e3b0a, type: 2}
+      Value: 1

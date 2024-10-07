@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7236f4a8466b904a82f67f845895c7b, type: 3}
+  m_Name: FoxyEnemyData
+  m_EditorClassIdentifier: 
+  enemySprite: {fileID: -3516080648589001842, guid: 285a5f438f15d3e4c9efd0232f2a3919, type: 3}
+  animationController: {fileID: -5646956806827132677, guid: 285a5f438f15d3e4c9efd0232f2a3919, type: 3}
+  enemyName: Foxy
+  statBlockInstance: {fileID: 11400000, guid: c8c1ea62c0f2c0d409c64cfa50b9d14b, type: 2}

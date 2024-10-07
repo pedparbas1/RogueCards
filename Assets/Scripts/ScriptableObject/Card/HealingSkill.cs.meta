@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5bc51dde7655ea546a9e62aa0fee235e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weapon: {instanceID: 0}
+  - dice: {instanceID: 0}
+  - abilityScore: {instanceID: 0}
+  - cardVisual: {fileID: 6518557282980842623, guid: c54b93cbffea79146aa970c8cb9ba7fe, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

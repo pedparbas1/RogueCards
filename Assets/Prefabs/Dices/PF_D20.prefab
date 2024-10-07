@@ -9,8 +9,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.2
+      value: -0.5000031
       objectReference: {fileID: 0}
     - target: {fileID: 6160170750959647642, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_Name
@@ -24,11 +28,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6965045045104682385, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_fontSize
-      value: 1.5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965045045104682385, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6965045045104682385, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_fontSizeBase
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965045045104682385, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8067281269013705362, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -64,11 +76,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 10
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 10
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_LocalPosition.x

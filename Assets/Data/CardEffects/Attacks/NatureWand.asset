@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1ef2e4b09ae034e9b6461dd4c9ad86, type: 3}
+  m_Name: NatureWand
+  m_EditorClassIdentifier: 
+  cardName: Nature Wand
+  staminaCost: 1
+  weapon: {fileID: 4013015454808364649, guid: fe21c02623c276145ace3568d3d7cb2d, type: 3}
+  dice: {fileID: 11400000, guid: c240d0df4ed134243b476691e7fd99e6, type: 2}
+  isExplosive: 1
+  abilityScore: {fileID: 11400000, guid: b3942e7dead46ad4a9929918ebd07031, type: 2}
+  cardVisual: {fileID: 7747134257265282402, guid: 3078b740db13a5544abf76fdd71440d8, type: 3}
+  effectType: {fileID: 11400000, guid: 247014779c9a2a8418f5a633a0d38dc8, type: 2}
+  damageType: {fileID: 11400000, guid: 247014779c9a2a8418f5a633a0d38dc8, type: 2}

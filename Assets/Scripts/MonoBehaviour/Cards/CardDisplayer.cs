@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CardDisplayer : MonoBehaviour
+public abstract class CardDisplayer<T> : MonoBehaviour where T : CardEffect 
 {
-    [SerializeField] private CardEffect cardEffect;
-    public void SetCardStats(CardEffect cardEffect)
+    [SerializeField] GameObjectVariable cardPrefab;
+    
+    [SerializeField] private CardInstance cardInstance;
+    public void SetCardStats(CardInstance cardInstance)
     {
-        this.cardEffect = cardEffect;
+        this.cardInstance = cardInstance;
         UpdateCardDisplayer();
     }
 
@@ -20,21 +19,21 @@ public class CardDisplayer : MonoBehaviour
     [SerializeField] private Image iconContainer;
     [SerializeField] private GameObject diceContainer;
     [SerializeField] private TMP_Text abilityScoreContainer;
-    [SerializeField] private TMP_Text damageTypeContainer;
 
-    private void Start()
+    void OnEnable() 
     {
-        UpdateCardDisplayer();
+        cardInstance.OnChangeEvent += SetCardStats;
     }
+    
+    protected T effect;
 
-    public void UpdateCardDisplayer()
+    public virtual void UpdateCardDisplayer()
     {
-        Effect e = cardEffect.Effect;
-        cardNameContainer.text = e.CardName;
-        staminaCostContainer.text = e.StaminaCost.ToString();
-        iconContainer.sprite = e.Weapon;
-        _ = Instantiate(e.Dice.dicePF, diceContainer.transform);
-        abilityScoreContainer.text = e.AbilityScore.ToString();
-        damageTypeContainer.text = e.DamageType.damageName;
+        this.effect = (T) cardInstance.CardEffect;
+        cardNameContainer.text = effect.CardName;
+        staminaCostContainer.text = effect.StaminaCost.ToString();
+        iconContainer.sprite = effect.Weapon;
+        _ = Object.Instantiate(effect.Dice.dicePF, diceContainer.transform);
+        abilityScoreContainer.text = effect.AbilityScore.ToString();
     }
 }

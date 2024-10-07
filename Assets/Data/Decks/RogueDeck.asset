@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca6a55e82be0c44799a981f93521722, type: 3}
+  m_Name: RogueDeck
+  m_EditorClassIdentifier: 
+  modifiable: 0
+  initialDeck:
+    dict:
+    - Key: {fileID: 11400000, guid: 3de70f864f1da364f82c925adb756e8d, type: 2}
+      Value: 3
+    - Key: {fileID: 11400000, guid: a6bedeced7171c14e98bb7787ffd7746, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 4477aa4522fd2f14d9108ce07591eb33, type: 2}
+      Value: 3

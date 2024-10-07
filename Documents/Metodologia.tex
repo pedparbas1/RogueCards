@@ -11,8 +11,39 @@ Resumen de lo que va a ocurrir en el capítulo. ¿Cuál es el objetivo que tenem
 
 \section{Estructura organizacional del proyecto}
 
-¿Se hace en grupo? En caso afirmativo, ¿cuál va a ser la responsabilidad de cada uno?
+El proyecto se realiza en solitario siendo Pedro Parilla Bascón el autor en su plenitud del proyecto. Le supervisa como tutor del proyecto D.~ Pablo Trinidad.
 
 \section{Metodología de desarrollo}
 
-Indicar en qué metodología nos basamos, explicarla brevemente y luego adaptarla a nuestras necesidades. Cada una de estas cuestiones debe ser una subsección.
+\subsection{Feature Driven Development (FDD)}
+Para el desarrollo del proyecto vamos a basarnos en la metodología conocida como Feature Driven Development (FDD). Esta es una metodología ágil de desarrollo de software centrada en la construcción de funcionalidades específicas. En lugar de seguir un enfoque tradicional basado en la documentación o el diseño completo antes de la implementación, FDD se centra en entregar características concretas en ciclos cortos de desarrollo. Esto permite adaptarse rápidamente a los cambios y proporciona un producto que puede ser evaluado y mejorado continuamente.
+\subsubsection{Características de FDD}
+\begin{enumerate}
+    \item [Enfoque en Funcionalidades]FDD se basa en identificar y desarrollar características concretas del sistema. Cada funcionalidad debe ser valiosa para el usuario y está alineada con los requisitos del negocio.
+    \item [Proceso en Etapas]
+        \begin{itemize}
+            \item [Desarrollo de un Modelo Global]Se crea un modelo conceptual que describe la estructura del sistema y sus principales componentes.
+            \item [Construcción de una Lista de Funcionalidad]Se define una lista detallada de las características que el sistema debe tener.
+            \item [Planificación por Funcionalidad]Las funcionalidades se dividen en tareas manejables y se planifican en ciclos cortos.
+            \item [Diseño por Funcionalidad]Cada funcionalidad se diseña y se desarrollan las especificaciones necesarias.
+            \item [Construcción por Funcionalidad]Se implementa y prueba cada funcionalidad de manera individual.
+        \end{itemize}
+    \item [Iteraciones Cortas]favorece ciclos de desarrollo cortos (generalmente de 1 a 2 semanas), lo que permite una entrega continua de funcionalidades y permite adaptarse a cambios rápidamente.
+    \item [Roles claros]Se definen roles específicos en el equipo, como el Chief Architect (arquitecto principal), que se encarga del modelo global, y los Feature Teams, que son responsables de implementar funcionalidades específicas.
+    \item [Documentación ligera]La documentación se centra en las características y sus diseños, en lugar de extensos documentos de requisitos o especificaciones. Esto facilita la comprensión y la comunicación.
+    \item [Revisión y Reportes]Al final de cada iteración, se busca feedback de los clientes/usuarios, lo que permite ajustar y mejorar el producto según las necesidades y expectativas de los mismos.
+\end{enumerate}
+
+\subsection{Adaptación}
+
+A partir de las características previamente expuestas vamos a seleccionar y curar las que más nos puedan ayudar para el correcto desarrollo del proyecto, ya que FDD se orienta e implementa en su totalidad cuando existe un equipo de desarrollo y unos clientes más al uso.
+\subsubsection{Selección de procesos}
+\begin{enumerate}
+    \item [Definición de funcionalidades]
+    Identificar las características clave que se desea implementar, como "sistema de movimiento de cartas", "turnos", etc...
+    \item [Descomposición en Tareas] Dividir cada funcionalidad en tareas más pequeñas y manejables. Por ejemplo, para el "sistema de movimiento de cartas", definiríamos tareas como "implementar lógica de arrastre", "definir interacciones con el entorno".
+    \item [Planificación de iteraciones] Establecer un calendario para desarrollar y entregar cada funcionalidad en iteraciones cortas de una o dos semanas. Al final de cada iteración se deberá tener una funcionalidad completamente operativa y probada.
+    \item [Revisión] Tras la iteración, probar que el sistema funciona correctamente
+    \item [Integración] Asegurar que la nueva funcionalidad es compatible con el resto de sistemas previamente implementados
+    \item [Documentación]Se generará la documentación necesaria para la correcta entrega del TFG. Intentando no dar explicaciones sobre implementaciones completas a bajo nivel en lo que a código respecta.
+\end{enumerate}

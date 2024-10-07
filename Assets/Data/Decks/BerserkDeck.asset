@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca6a55e82be0c44799a981f93521722, type: 3}
+  m_Name: BerserkDeck
+  m_EditorClassIdentifier: 
+  modifiable: 0
+  initialDeck:
+    dict:
+    - Key: {fileID: 11400000, guid: 70d2fd81834b3ea4395d06b30f922d2d, type: 2}
+      Value: 3
+    - Key: {fileID: 11400000, guid: 4270002165ec69f4baa65cdc6f8829e3, type: 2}
+      Value: 3
+    - Key: {fileID: 11400000, guid: 3eca38d34892dde4c835c7cf7a9358d5, type: 2}
+      Value: 1

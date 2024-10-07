@@ -8,29 +8,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5586127563804579803, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6160170750959647642, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_Name
       value: PF_D4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6965045045104682385, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
-      propertyPath: m_text
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8067281269013705362, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -62,11 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 10
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 10
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8803091001784230297, guid: 3682e89a139acb747887ddf45e9d041f, type: 3}
       propertyPath: m_LocalPosition.x

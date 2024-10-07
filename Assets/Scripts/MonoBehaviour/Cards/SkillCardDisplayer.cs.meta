@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 668898d64724bb54b887f3d72f234159
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cardPrefab: {instanceID: 0}
+  - cardInstance: {fileID: 6518557282980842623, guid: c54b93cbffea79146aa970c8cb9ba7fe, type: 3}
+  - cardNameContainer: {instanceID: 0}
+  - staminaCostContainer: {instanceID: 0}
+  - iconContainer: {instanceID: 0}
+  - diceContainer: {instanceID: 0}
+  - abilityScoreContainer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

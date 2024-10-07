@@ -5,7 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/DemoScenes/StartingScene.unity
+    guid: edcc6280d185f2d419a75102e3800de0
+  - enabled: 1
+    path: Assets/Scenes/DemoScenes/CharacterSelector.unity
+    guid: 1e64f45d143005b48ab747d131a152fb
+  - enabled: 1
+    path: Assets/Scenes/DemoScenes/BattlingScene.unity
+    guid: 81bbc5d7bf0a7e047a5e4b43a5ca38d0
+  - enabled: 1
+    path: Assets/Scenes/DemoScenes/DeckSelector.unity
+    guid: 0efd23720e1438c4d8efc101b9c19cd7
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5e8a5b133cc86f145a82e837c71b5ecb, type: 2}

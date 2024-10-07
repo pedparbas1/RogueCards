@@ -1,20 +1,179 @@
 %!TEX root =  tfg.tex
-\chapter{Contexto}
+\chapter{Objetivos}
 
 \begin{quotation}[Novelist]{Ernest Hemingway (1899--1961)}
 The good parts of a book may be only something a writer is lucky enough to overhear or it may be the wreck of his whole damn life -- and one is as good as the other.
 \end{quotation}
 
 \begin{abstract}
-Aqu\'i mal un breve resumen del capítulo.
+Aquí va un breve resumen del capítulo.
 \end{abstract}
 
+\section{Aprendizajes del proyeto}
+La idea del proyecto es el aprendizaje y familiarización en el desarrollo de videojuegos desde cero, utilizando un motor gráfico moderno como Unity, así como realizar una planificación y gestión de un proyecto informático de forma profesional, demostrando así los conocimientos adquiridos durante el Grado de Ingeniería de Software.
+
 \section{Motivación}
-Esta sección se rellenará cuando tengamos un producto de mercado en lugar de un proyecto en el que haya un cliente específico. Deberá justificar brevemente el problema a resolver, escenario en el que se aplica, hipótesis de partida, público objetivo, etc.
+El auge de los juegos de cartas y roguelikes ha generado un gran interés en mecánicas que combinen estrategia y rejugabilidad. Este es un género de juegos que si bien no es el más popular, obtiene gran cantidad de fama y buena crítica. Esto se debe a su alta rejugabilidad, ya que cada partida es única gracias a la generación aleatoria de niveles y cartas, lo que mantiene el interés de los jugadores haciendo que cada partida sea distinta haciendo que el jugador tenga que adaptarse a la aleatoriedad. Además, ofrecen una profunda estrategia en la construcción de mazos, lo que atrae a quienes disfrutan del pensamiento crítico. Su accesibilidad permite que nuevos jugadores aprendan las mecánicas de forma gradual, mientras que su estética atractiva y narrativas interesantes ayudan a sumergir a los jugadores en el juego. Las comunidades activas y el contenido adicional que se crea alrededor de estos, junto con el éxito crítico, han fomentado un ambiente de apoyo y conexión entre jugadores. Por último, la diversidad de estilos de juego asegura que haya algo para todos los gustos, desde desafíos serios hasta experiencias más ligeras, consolidando su lugar en el panorama actual de los videojuegos.
+
+Sin embargo, muchos juegos del género se sienten repetitivos o carecen de profundidad en la construcción de mazos o diversas mecánicas que potencialmente puedan mejorarlo. El desafío es crear una experiencia que ofrezca variedad en cada partida, manteniendo la emoción y la sorpresa, al tiempo que se fomente la toma de decisiones estratégicas.
+
+\subsection{Estudio de mercado}
+Como referencias para este proyecto se han usado 3 juegos que han tenido una gran aceptación entre la comunidad de jugadores. Estos son "Slay the Spire", "Rogue Book" o "Balatro": 
+
+\subsubsection{Slay the Spire}
+Concepto Básico: Slay the Spire es un juego roguelike de cartas en el que los jugadores eligen un personaje y deben ascender por una torre donde deberán elegir el camino a seguir, cada camino siendo distinto, enfrentándose a enemigos y jefes en cada nivel. La clave es construir un mazo de cartas a partir de las que van obteniendo a lo largo del camino.
+
+Destaca por su profundidad estratégica, permitiendo crear mazos que tengan mucha sinergia, es decir, los efectos de unas cartas combinan con el resto haciendo que la experiencia se vuelva adictiva a medida que se completa el mazo. Esto unido a que cada uno de los personajes jugables tiene su propio mazo de cartas hace que la experiencia sea prácticamente única todas las partidas.
+
+Elementos Incluidos:
+\begin{description}
+    \item [Múltiples Clases:] Cada personaje tiene su propio conjunto de cartas y habilidades únicas.
+    \item [Generación Procedural:] Los mapas, encuentros y recompensas se generan aleatoriamente, garantizando que cada partida sea diferente.
+    \item [Eventos y Encuentros:] Durante su ascenso, los jugadores pueden encontrar eventos aleatorios que ofrecen decisiones que afectan su progreso.
+    \item [Relación entre Cartas:] La mecánica de construcción de mazos permite sinergias entre cartas, lo que enriquece la estrategia.
+    \item [Categorización de cartas:] Las cartas tienen tres categorías: Ataques, Habilidades y Poderes. Tanto las cartas como los enemigos pueden reaccionar a los tipos de cartas jugadas.
+\end{description}
+
+Como puntos a tener en cuenta para nuestro proyecto, tendremos: 
+- Variedad de efectos de cartas. Y reacciones a cartas jugadas. Teniendo cuidado para no abrumar al jugador con mecánicas complejas que entorpezcan la entrada al juego.
+- La rejugabilidad, con cada partidad siendo completamente aleatoria.
+- Equilibrio entre dificultad y progresión, para mantener a los jugadores desafiados pero no frustrados.
+- Narrativa sutil mediante eventos y textos que no cortan la que añade una capa de inmersion sin interrumpir el flujo del juego.
+
+\subsubsection{Roguebook}
+Concepto Básico: Roguebook combina elementos de roguelike y construcción de mazos, permitiendo a los jugadores explorar un mundo en un formato de libro abierto. Los jugadores controlan a dos personajes simultáneamente, combinando sus cartas para enfrentar enemigos.
+
+Destaca por su exploración "libre" dentro de los límites de un mapa, y su combinación de cartas, ya que cada personaje jugable tiene su propio mazo y se juega con dos personajes a la vez, mezclando sus mazos a la hora de "robar cartas". Esto hace que cada partida sea potencialmente un problema distinto y que tengas que adaptarte a las fortalezas de cada personaje e intentar aprovechar al máximo su simbiósis. Esto unido a la toma de decisiones estratégicas sobre los recursos de "tinta" que descubren partes del libro (el mapa) lo vuelven en un juego que plantea problemas de difícil solución.
+
+Elementos Incluidos:
+\begin{description}
+    \item[Sistema de Combinación de cartas:] Los jugadores pueden mezclar cartas de dos héroes, creando sinergias y estrategias personalizadas.
+    \item[Exploración del Mapa:] Los mapas son dinámicos y permiten a los jugadores explorar diferentes caminos, lo que añade una capa de estrategia.
+    \item[Estilo Visual:] Presenta una estética de ilustración encantadora que da vida al mundo del juego.
+    \item[Eventos Aleatorios:] Incluye eventos y desafíos inesperados que ofrecen recompensas o complicaciones adicionales. 
+\end{description}
+
+Podemos entonces tener en cuenta:
+- Estética atractiva y vibrante que destaca en el género.
+- Combinaciones de personajes con mazos distintos.
+- Cartas con efectos simples y menos sinergias que Slay the Spire.
+- La crítica comenta que la dificultad puede ser inconsistente lo que puede llevar a momentos de frustracion.
+
+
+\subsubsection{Balatro}
+Concepto Básico: Balatro es un juego de cartas roguelike donde los jugadores juegan al poker buscando superar una serie de puntuaciones mínimas para  superar varios niveles de apuestas a través de combinar manos de póker con los "joker" que aportan modificaciones sobre las mismas.
+
+Aporta un enfoque divertido y accesible al género gracias a su fácil comprensión de mecánicas y simpleza de interfaz que lo vuelven adictivo. Además cuenta con un gran sistema de desbloqueo de cartas, haciendo que el jugador cumpla algún tipo de reto que podría mermarle a corto plazo pero abrirle más posibilidades de juego en otras partidas. Creando así un sistema que se retroalimenta haciendo que el jugador tenga que debatir sobre la mejor estrategia.
+
+Elementos Incluidos:
+\begin{description}
+    \item[Mecánica de Apuestas:] Los jugadores pueden arriesgar cartas en situaciones específicas para obtener beneficios o potenciadores, lo que añade una dinámica de riesgo y recompensa.
+    \item[Temática Ligera:] El juego tiene un enfoque ligero, las consecuencias de perder no son muy relevantes, se enfoca en hacer pasar el tiempo de una forma entretenida y adictiva.
+    \item[Estrategia de construcción de mazos:] Similar a otros roguelikes de cartas, los jugadores deben construir y optimizar su mazo adaptándose a la situación concreta y aleatoria de la partida.
+    \item[Interfax simple:] El diseño de la interfaz es amigable para nuevos jugadores, facilitando la comprensión de las mecánicas del juego.
+    \item[Familiaridad:] Al estar basarse en el póker, los nuevos usuarios ya están familiarizados con las cartas.     
+\end{description}
+
+Tras analizarlo podemos concluir entonces: 
+- Estética simple, más fácil de entender para los jugadores.
+- Mecánicas adictivas, el jugador puede arriesgar cartas para obtener beneficios, añadiendo un elemento de riesgo-recompensa.
+- En término de cartas, aunque sea más fácil de entender, las mismas cartas todas las partidas puede ser repetitivo, afectando a su rejugabilidad a largo plazo.
+- Muchas veces el juego puede sentirse injusto por mecánicas como la aleatoriedad en "niveles" (enemigos) que pueden explotar ciertas debilidades de los mazos. Esto repercute negativamente si no está bien equilibrado, haciendo que la estrategia y habilidad del jugador se sienta insignificante.
+
+\section{Propuesta}
+Se propone un Juego de cartas por turnos donde el jugador maneje un personaje elegido antes de comenzar una partida. Este a su vez elegirá un mazo de cartas con el que jugar y progresar. El jugador avanzará por unos niveles donde encontrará enemigos que querrán terminar su partida antes de lo esperado si no los derrota mediante las acciones definidas en las cartas. 
+\subsection{Sistema de estadísticas}
+Todos los personajes tanto jugables como enemigos tienen unas estadísticas que influirán en el desarrollo de las acciones. Estas estadísticas están basadas en el sistema conocido de Dragones y Mazmorras 5ª edición. Gran parte del proyecto toma ciertos aspectos de este conocido juego de mesa y las digitaliza y adapta.
+
+Estas reglas hacen que las estadísticas tomen ciertos valores comprendidos entre 1 y 20 y estas afecten al resto de acciones realizables durante el juego según defina si son necesarias. ¿Cómo las modifican? Usando un valor conocido como Modificador (Mod) que es el resultado de restarle 10 al valor de la estadística (Stat), dividirlo entre dos y aplicarle una función suelo.
+\begin{center}
+    $Mod = \lfloor (Stat - 10) \div 2 \rfloor$
+\end{center}
+
+\subsubsection{Estadísticas}
+\begin{list}{Estadísticas}{spacing}
+    \item[Fuerza(Strength, STR):] Representa la fuerza del personaje e influye tanto en el ataque como en la defensa con cartas de fuerza.
+    \item[Destreza(Dexterity, DEX):] Representa la agilidad del personaje e influye tanto en el ataque como la defensa con cartas de destreza.
+    \item[Constitución(Constitution, CON):] Representa la fortaleza y resistencia del personaje influendo tanto en la Salud que tendrá el personaje así como en las cartas que utilicen esta estadística y la cantidad de acciones por turno que tendrá.
+    \item[Inteligencia(Intelligence, INT):] Representa la destreza mental en combate así como el conocimiento del personaje influyendo en las carta que usen las características así como en las cartas obtenidas al inicio de ronda y las posibilidades de robo de carta.
+    \item[Carisma(Charisma, CHA):] Representa la astucia y carácter del personaje influye en las cartas que usen la estadística así como en las interacciones sociales que el jugador pueda ir encontrando a lo largo de la partida.
+\end{list}
+
+Los personajes también tienen unos atributos que pueden influir a lo largo de la partida como:
+- Nivel: medirá el progreso e influirá en otras estadísticas.
+- Puntos de vida base: serán los puntos de vida a nivel 1 e influirán en el cálculo de la vida cuando se suba de nivel.
+- Inmunidades: Lista de tipos de daño que no afectan al personaje.
+- Resistencias: Lista de tipos de daño que afectan la mitad al personaje.
+- Debilidade: Lista de tipos de daño que afectarán el doble al personaje.
+
+Los enemigos contarán con 3 atributos extra: 
+- Daño base: El daño que se usará para calcular la fuerza de un ataque de este enemigo.
+- Tipo de daño de ataque: El tipo de daño producido por el ataque.
+- Habilidad de ataque: Referencia a la estadística con la que este enmigo calcula la fuerza de ataque, sumándola al daño base.
+
+Los héroes o personajes jugables también contarán con la estamina que determinará el total de los costes de las acciones que el jugador podrá realizar por turno.
+
+\subsubsection{Sistema de dados}
+RogueCards usa un sistema de dados similar al de Dragones y Mazmorras. Estos se usarán para determinar el poder de los efectos que se dan lugar durante la partida. Existen 7 tipos de dados, cada uno de ellos devuelve valores entre [1, X] siendo X el valor mostrado en el nombre del dado: 
+- d4
+- d6
+- d8
+- d10
+- d12
+- d20
+- d100
+
+Los dados que se usen pueden implementar una mecánica de explosión o crítico. Esta mecánica se basa en que cuando se obtiene el valor máximo del dado, si el efecto es explosivo, el dado volverá a tirarse, sumándose a la tirada anterior y pudiendo explotar de nuevo infinitamente.
+
+\subsubsection{Sistema de cartas}
+Las cartas están divididas en 3 secciones: Ataques: aplicarán daño sobre los enemigos, Habilidades: aplicarán efectos como curación y escudo al héroe, Poderes: Modificarán las estadísticas del héroe.
+Las cartas contienen cierta información que será usada para calcular las acciones que estas producen durante la partida: 
+- Nombre.
+- Coste de estamina: Representa el gasto de estamina que le supone al jugador usar la carta.
+- Dado: Representa el dado que se usará para calcular el resultado de jugar la carta. 
+- Explosivo: Determina si el efecto es explosivo.
+- Estadística: Determina la estadística del personaje que influirá en el cálculo del efecto.
+- Los ataques también incluyen el tipo de daño realizado.
+
+Las cartas estarán alojadas en mazos que se podrán elegir de entre 3 predefinidos al principio de la partida, simulando estilos de juegos típicos de los juegos de rol, como son el Pícaro(Rogue), Guerrero(Berserker) o Mago(Mage). Cada uno con sus habilidades y armas específicas (cartas).
+
+
+
+
 
 \section{Listado de objetivos}
-
+Tras este análisis podemos elaborar una lista de objetivos que puedan dirigir el desarrollo de forma que podamos evitar los errores que cometen los juegos mejor valorados dentro del género y aprovechar sus fortalezas ya consolidadas dentro de los jugadores típicos de este género de "Roguelike de cartas por turnos": 
 \begin{description}
-\item \textbf{Objetivo 1. Blabla} Detalles del objetivo 1.
-\item \textbf{Objetivo 2. Blabla} Detalles del objetivo 2.
+\item \textbf{Objetivo Final. Desarrollo de un Producto Mínimo Viable}
+Crear un prototipo de videojuego con mecánicas parecidas, y similares a las de los videojuegos de cartas estudiados previamente. 
+\item \textbf{Objetivo 1. Conceptualización y diseño inicial}
+Plantear unas directrices sobre cómo debe funcionar el juego, qué mecánicas hay que desarrollar y cómo. A su vez establecer un estilo visual y temática que tenga sentido dentro del proyecto.
+\item \textbf{Objetivo x. Preparación y familiarización con Unity}
+Creación de un proyecto vacío sobre el que poder iniciar el desarrollo así como conocer sus sistemas y cómo funciona.
+\item \textbf{Objetivo x. Definición de sistemas de juego}
+Desarrollo de las estadísticas o los sistemas base que formarán la base del juego.
+\item \textbf{Objetivo x. Movimiento de cartas}
+Creación de un sistema que nos permita mover las cartas por la escena, así como tener una "mano" de carta.
+\item \textbf{Objetivo x. Creación de un sistema de cartas reducido}
+Creación de cartas, sus datos y componentes visuales para poder tener una representación prácticamente jugable con la que poder probar el resto de sistemas.
+\item \textbf{Objetivo x. Desarrollo del sistema de mazos}
+Sistema sobre el que se desarrollan los "robos" y "descartes" de las cartas, así como la elección del mazo jugable.
+\item \textbf{Objetivo x. Desarrollo del sistema de personajes}
+Creación de los sistemas de datos y representación de personajes tanto aliados como enemigos.
+\item \textbf{Objetivo x. Desarrollo del sistema de combate}
+Elaboración de un sistema mediante el que poder jugar las cartas y aplicar los efectos de las mismas.
+\item \textbf{Objetivo x. Desarrollo del sistema de turnos}
+Poder terminar el turno del jugador y que la máquina controle a los enemigos. A su vez cambiando de ronda y habilitando de nuevo al jugador.
+\item \textbf{Objetivo x. Desarrollo de condiciones de Victoria y Derrota}
+Hacer que el jugador pueda ganar o perder la partida.
+\item \textbf{Objetivo x. Desarrollo de sistema de progresión de partida}
+Crear un progreso dentro de una partida. 
+\item \textbf{Objetivo x. Desarrollo del sistema de progresión de personaje}
+Crear el progreso de personaje para que pueda evolucionar a medida que progresa la partida.
+\item \textbf{Objetivo x. Desarrollo sistema de progresión de mazo}
+Desarrollar un sistema mediante el que añadir cartas nuevas al mazo que esté jugando 
+\item \textbf{Objetivo x. Creación del ejecutable del juego}
+Obtener un producto final que puedas ser jugado y probado por un grupo de jugadores y obtener feedback para mejorar el juego hasta llegar a un punto donde pueda ser lanzado.
 \end{description}
+
+Todos estos objetivos definen a su vez una sucesión de puntos de control que están ordenados teniendo en cuenta las necesidades del proyecto en cada momento. Por ejemplo para validar el "Desarrollo de condiciones de Victoria y Derrota", el sistema de combate o el de turnos debe estar desarrollado, si no podemos tener un sistema que no se puede probar cómoda y correctamente evitando así la posible deuda técnica generada al no tener sistemas probados.

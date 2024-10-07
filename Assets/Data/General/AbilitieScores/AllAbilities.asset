@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da17353be5725254eb1be98e08d6efe1, type: 3}
+  m_Name: AllAbilities
+  m_EditorClassIdentifier: 
+  Abilities:
+    dict:
+    - Key: cha
+      Value: {fileID: 11400000, guid: e7bbd598f5c7f3548a0a22cb3ae872aa, type: 2}
+    - Key: con
+      Value: {fileID: 11400000, guid: ee15224bc8122a6449a83e5204590917, type: 2}
+    - Key: dex
+      Value: {fileID: 11400000, guid: b072ba791877bb24bbabe81fd0ac91aa, type: 2}
+    - Key: int
+      Value: {fileID: 11400000, guid: b3942e7dead46ad4a9929918ebd07031, type: 2}
+    - Key: str
+      Value: {fileID: 11400000, guid: 2f186c57eb2d3df43a47c10fa005cdd2, type: 2}
